@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'web-assistant=web_assistant.cli:main',
+            'assistant=assistant.cli:main',
         ],
     },
 )
