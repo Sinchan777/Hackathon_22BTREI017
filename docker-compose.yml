@@ -1,0 +1,10 @@
+version: '3'
+services:
+  assistant:
+    build: .
+    devices:
+      - "/dev/snd:/dev/snd"
+    environment:
+      - DISPLAY=unix$DISPLAY
+    volumes:
+      - .:/app
